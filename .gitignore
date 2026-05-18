@@ -51,6 +51,5 @@ scratch_*.py
 # uv.lock
 # poetry.lock
 
-*.md
 *.db
 scratch/
