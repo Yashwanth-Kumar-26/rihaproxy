@@ -96,18 +96,26 @@ class KiroAdapter(BackendAdapter):
         return MODEL_SYNONYMS.get(model.lower(), model)
 
     async def validate_token(self, token: str) -> dict[str, Any] | None:
-        """Validate Kiro OAuth token and extract profile ARN."""
+        """Validate Kiro OAuth token by listing available models."""
         try:
             async with httpx.AsyncClient(timeout=10) as client:
-                response = await client.get(
-                    "https://codewhisperer.us-east-1.amazonaws.com/listAvailableModels",
-                    headers={"Authorization": f"Bearer {token}"},
+                response = await client.post(
+                    "https://codewhisperer.us-east-1.amazonaws.com",
+                    json={
+                        "origin": "AI_EDITOR",
+                        "profileArn": KIRO_CONFIG["defaultProfileArn"],
+                    },
+                    headers={
+                        "Authorization": f"Bearer {token}",
+                        "Content-Type": "application/x-amz-json-1.0",
+                        "x-amz-target": "AmazonCodeWhispererService.ListAvailableModels",
+                        "Accept": "application/json",
+                    },
                 )
                 if response.status_code == 200:
                     data = response.json()
-                    # Extract profile ARN from response if available
-                    profile_arn = data.get("profileArn") or KIRO_CONFIG["defaultProfileArn"]
-                    return {"valid": True, "profileArn": profile_arn, "models": data.get("models", [])}
+                    models = data.get("models", [])
+                    return {"valid": True, "profileArn": KIRO_CONFIG["defaultProfileArn"], "models": models}
                 elif response.status_code == 401:
                     return {"valid": False, "error": "Token expired or invalid"}
                 else:

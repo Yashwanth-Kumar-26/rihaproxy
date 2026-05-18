@@ -350,6 +350,7 @@ class TokenManager:
                             "Authorization": f"Bearer {token}",
                             "Content-Type": "application/x-amz-json-1.0",
                             "x-amz-target": "AmazonCodeWhispererService.ListAvailableModels",
+                            "Accept": "application/json",
                         },
                     )
                 else:

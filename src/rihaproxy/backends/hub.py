@@ -7,7 +7,7 @@ from __future__ import annotations
 import structlog
 from typing import Any
 
-from rihaproxy.backends.base import BackendAdapter, ProviderUnavailable
+from rihaproxy.backends.base import BackendAdapter, BackendError, ProviderUnavailable
 from rihaproxy.config import settings
 
 logger = structlog.get_logger()
