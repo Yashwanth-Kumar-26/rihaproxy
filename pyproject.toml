@@ -1,0 +1,73 @@
+[project]
+name = "rihaproxy"
+version = "0.1.0"
+description = "Universal AI Gateway — one key, 40+ providers, auto-fallback"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "RihaProxy" }
+]
+keywords = ["ai", "proxy", "gateway", "openai", "anthropic", "llm", "routing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "pydantic>=2.10.0",
+    "pydantic-settings>=2.7.0",
+    "httpx>=0.28.0",
+    "sse-starlette>=2.2.0",
+    "python-dotenv>=1.0.0",
+    "orjson>=3.10.0",
+    "jinja2>=3.1.0",
+    "aiohttp>=3.11.0",
+    "tenacity>=9.0.0",
+    "structlog>=25.0.0",
+    "rich>=13.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.25.0",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.8.0",
+    "mypy>=1.13.0",
+    "pre-commit>=4.0.0",
+]
+
+[project.scripts]
+rihaproxy = "rihaproxy.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/rihaproxy/rihaproxy"
+Documentation = "https://github.com/rihaproxy/rihaproxy#readme"
+Repository = "https://github.com/rihaproxy/rihaproxy"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E", "F", "I", "N", "W", "UP", "B", "C4", "DTZ", "T10", "ISC"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_ignores = true
+ignore_missing_imports = true

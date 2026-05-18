@@ -1,0 +1,7 @@
+{
+  "provider": "kiro",
+  "model_default": "kiro/claude-sonnet-4.5",
+  "model_opus": "kiro/claude-sonnet-4.5",
+  "model_sonnet": "kiro/claude-sonnet-4.5",
+  "model_haiku": "kiro/claude-haiku-4.5"
+}

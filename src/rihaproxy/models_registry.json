@@ -1,0 +1,803 @@
+[
+  {
+    "id": "nvidia/black-forest-labs/flux.1-dev",
+    "object": "model",
+    "name": "FLUX.1-dev",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/stepfun-ai/step-3.5-flash",
+    "object": "model",
+    "name": "Step 3.5 Flash",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/mistralai/codestral-22b-instruct-v0.1",
+    "object": "model",
+    "name": "Codestral 22b Instruct V0.1",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/mistralai/mamba-codestral-7b-v0.1",
+    "object": "model",
+    "name": "Mamba Codestral 7b V0.1",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/microsoft/phi-4-mini-instruct",
+    "object": "model",
+    "name": "Phi-4-Mini",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "object": "model",
+    "name": "Nemotron 3 Nano Omni",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/nvidia/llama-3.3-nemotron-super-49b-v1",
+    "object": "model",
+    "name": "Llama 3.3 Nemotron Super 49b V1",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/nvidia/nemotron-4-340b-instruct",
+    "object": "model",
+    "name": "Nemotron 4 340b Instruct",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5",
+    "object": "model",
+    "name": "Llama 3.3 Nemotron Super 49b V1.5",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/nvidia/nemotron-3-nano-30b-a3b",
+    "object": "model",
+    "name": "nemotron-3-nano-30b-a3b",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/nvidia/llama-3.1-nemotron-ultra-253b-v1",
+    "object": "model",
+    "name": "Llama-3.1-Nemotron-Ultra-253B-v1",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/nvidia/nvidia-nemotron-nano-9b-v2",
+    "object": "model",
+    "name": "nvidia-nemotron-nano-9b-v2",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/nvidia/cosmos-nemotron-34b",
+    "object": "model",
+    "name": "Cosmos Nemotron 34B",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/nvidia/llama-embed-nemotron-8b",
+    "object": "model",
+    "name": "Llama Embed Nemotron 8B",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/nvidia/llama-3.1-nemotron-51b-instruct",
+    "object": "model",
+    "name": "Llama 3.1 Nemotron 51b Instruct",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/nvidia/llama-3.1-nemotron-70b-instruct",
+    "object": "model",
+    "name": "Llama 3.1 Nemotron 70b Instruct",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/deepseek-ai/deepseek-r1",
+    "object": "model",
+    "name": "Deepseek R1",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/deepseek-ai/deepseek-v3.1",
+    "object": "model",
+    "name": "DeepSeek V3.1",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/deepseek-ai/deepseek-v3.2",
+    "object": "model",
+    "name": "DeepSeek V3.2",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/deepseek-ai/deepseek-r1-0528",
+    "object": "model",
+    "name": "Deepseek R1 0528",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/deepseek-ai/deepseek-v3.1-terminus",
+    "object": "model",
+    "name": "DeepSeek V3.1 Terminus",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/openai/whisper-large-v3",
+    "object": "model",
+    "name": "Whisper Large v3",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/minimaxai/minimax-m2.7",
+    "object": "model",
+    "name": "MiniMax-M2.7",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/minimaxai/minimax-m2.1",
+    "object": "model",
+    "name": "MiniMax-M2.1",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/minimaxai/minimax-m2.5",
+    "object": "model",
+    "name": "MiniMax-M2.5",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/z-ai/glm4.7",
+    "object": "model",
+    "name": "GLM-4.7",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/z-ai/glm5",
+    "object": "model",
+    "name": "GLM5",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/z-ai/glm-5.1",
+    "object": "model",
+    "name": "GLM-5.1",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/meta/llama-3.3-70b-instruct",
+    "object": "model",
+    "name": "Llama 3.3 70b Instruct",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/qwen/qwen3-235b-a22b",
+    "object": "model",
+    "name": "Qwen3-235B-A22B",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/qwen/qwen3-next-80b-a3b-thinking",
+    "object": "model",
+    "name": "Qwen3-Next-80B-A3B-Thinking",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/qwen/qwq-32b",
+    "object": "model",
+    "name": "Qwq 32b",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/qwen/qwen3-next-80b-a3b-instruct",
+    "object": "model",
+    "name": "Qwen3-Next-80B-A3B-Instruct",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/google/gemma-3-12b-it",
+    "object": "model",
+    "name": "Gemma 3 12b It",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/google/gemma-3-27b-it",
+    "object": "model",
+    "name": "Gemma-3-27B-IT",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/moonshotai/kimi-k2.5",
+    "object": "model",
+    "name": "Kimi K2.5",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/moonshotai/kimi-k2-instruct",
+    "object": "model",
+    "name": "Kimi K2 Instruct",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/moonshotai/kimi-k2.6",
+    "object": "model",
+    "name": "Kimi K2.6",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "nvidia/moonshotai/kimi-k2-instruct-0905",
+    "object": "model",
+    "name": "Kimi K2 0905",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "nvidia/moonshotai/kimi-k2-thinking",
+    "object": "model",
+    "name": "Kimi K2 Thinking",
+    "owned_by": "nvidia",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "openrouter/liquid/lfm-2.5-1.2b-instruct:free",
+    "object": "model",
+    "name": "LFM2.5-1.2B-Instruct (free)",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/liquid/lfm-2.5-1.2b-thinking:free",
+    "object": "model",
+    "name": "LFM2.5-1.2B-Thinking (free)",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-r1-distill-llama-70b",
+    "object": "model",
+    "name": "DeepSeek R1 Distill Llama 70B",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-chat-v3-0324",
+    "object": "model",
+    "name": "DeepSeek V3 0324",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/openrouter/free",
+    "object": "model",
+    "name": "Free Models Router",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-3.1-24b-instruct",
+    "object": "model",
+    "name": "Mistral Small 3.1 24B Instruct",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+    "object": "model",
+    "name": "Mistral Small 3.2 24B Instruct",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+    "object": "model",
+    "name": "Llama 3.3 70B Instruct (free)",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/qwen/qwen-2.5-coder-32b-instruct",
+    "object": "model",
+    "name": "Qwen2.5 Coder 32B Instruct",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/google/gemma-3-4b-it:free",
+    "object": "model",
+    "name": "Gemma 3 4B (free)",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/google/gemma-3n-e4b-it:free",
+    "object": "model",
+    "name": "Gemma 3n 4B (free)",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/google/gemma-3n-e2b-it:free",
+    "object": "model",
+    "name": "Gemma 3n 2B (free)",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/google/gemma-3-27b-it:free",
+    "object": "model",
+    "name": "Gemma 3 27B (free)",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/google/gemma-4-31b-it:free",
+    "object": "model",
+    "name": "Gemma 4 31B (free)",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "openrouter/google/gemma-3-12b-it:free",
+    "object": "model",
+    "name": "Gemma 3 12B (free)",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "openrouter/google/gemma-4-26b-a4b-it:free",
+    "object": "model",
+    "name": "Gemma 4 26B A4B (free)",
+    "owned_by": "openrouter",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "zai/glm-4.7",
+    "object": "model",
+    "name": "GLM-4.7",
+    "owned_by": "zai",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "zai/glm-5.1",
+    "object": "model",
+    "name": "GLM-5.1",
+    "owned_by": "zai",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "zai/glm-4.5-air",
+    "object": "model",
+    "name": "GLM-4.5-Air",
+    "owned_by": "zai",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "zai/glm-5-turbo",
+    "object": "model",
+    "name": "GLM-5-Turbo",
+    "owned_by": "zai",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "zai/glm-5v-turbo",
+    "object": "model",
+    "name": "GLM-5V-Turbo",
+    "owned_by": "zai",
+    "created": 1777953265,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "ruflo/claude-3-5-sonnet-latest",
+    "object": "model",
+    "name": "Claude 3.5 Sonnet (Ruflo)",
+    "owned_by": "ruflo",
+    "created": 1777953265,
+    "free": false,
+    "reasoning": true
+  },
+  {
+    "id": "ruflo/claude-3-opus-latest",
+    "object": "model",
+    "name": "Claude 3 Opus (Ruflo)",
+    "owned_by": "ruflo",
+    "created": 1777953265,
+    "free": false,
+    "reasoning": true
+  },
+  {
+    "id": "codex/gpt-4o",
+    "object": "model",
+    "name": "GPT-4o (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/gpt-4o-mini",
+    "object": "model",
+    "name": "GPT-4o Mini (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/llama-3.3-70b",
+    "object": "model",
+    "name": "Llama 3.3 70B (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/llama-3.1-405b",
+    "object": "model",
+    "name": "Llama 3.1 405B (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/llama-3.1-70b",
+    "object": "model",
+    "name": "Llama 3.1 70B (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/llama-3.2-90b",
+    "object": "model",
+    "name": "Llama 3.2 90B Vision (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/phi-3.5-moe",
+    "object": "model",
+    "name": "Phi-3.5 MoE (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/phi-3.5-mini",
+    "object": "model",
+    "name": "Phi-3.5 Mini (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/mistral-large",
+    "object": "model",
+    "name": "Mistral Large (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/mistral-small",
+    "object": "model",
+    "name": "Mistral Small (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/mistral-nemo",
+    "object": "model",
+    "name": "Mistral Nemo (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/deepseek-v3",
+    "object": "model",
+    "name": "DeepSeek V3 (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/deepseek-r1",
+    "object": "model",
+    "name": "DeepSeek R1 (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "codex/command-r-plus",
+    "object": "model",
+    "name": "Command R+ (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/command-r",
+    "object": "model",
+    "name": "Command R (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/jamba-1.5-large",
+    "object": "model",
+    "name": "Jamba 1.5 Large (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "codex/jamba-1.5-mini",
+    "object": "model",
+    "name": "Jamba 1.5 Mini (GitHub)",
+    "owned_by": "codex",
+    "created": 1778249531,
+    "free": true,
+    "reasoning": false
+  },
+  {
+    "id": "github/claude-3-5-sonnet-20241022",
+    "object": "model",
+    "name": "Claude 3.5 Sonnet (GitHub Copilot)",
+    "owned_by": "github",
+    "created": 1778263571,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "github/claude-3-5-haiku-20241022",
+    "object": "model",
+    "name": "Claude 3.5 Haiku (GitHub Copilot)",
+    "owned_by": "github",
+    "created": 1778263571,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "kiro/claude-sonnet-4.5",
+    "object": "model",
+    "name": "Claude Sonnet 4.5 (Kiro)",
+    "owned_by": "kiro",
+    "created": 1778263571,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "kiro/claude-haiku-4.5",
+    "object": "model",
+    "name": "Claude Haiku 4.5 (Kiro)",
+    "owned_by": "kiro",
+    "created": 1778263571,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "kiro/claude-opus-4",
+    "object": "model",
+    "name": "Claude Opus 4 (Kiro)",
+    "owned_by": "kiro",
+    "created": 1778263571,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "kiro/deepseek-3.2",
+    "object": "model",
+    "name": "DeepSeek 3.2 (Kiro)",
+    "owned_by": "kiro",
+    "created": 1778263571,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "kiro/qwen3-coder-next",
+    "object": "model",
+    "name": "Qwen3 Coder Next (Kiro)",
+    "owned_by": "kiro",
+    "created": 1778263571,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "kiro/glm-5",
+    "object": "model",
+    "name": "GLM 5 (Kiro)",
+    "owned_by": "kiro",
+    "created": 1778263571,
+    "free": true,
+    "reasoning": true
+  },
+  {
+    "id": "kiro/minimax-m2.5",
+    "object": "model",
+    "name": "MiniMax M2.5 (Kiro)",
+    "owned_by": "kiro",
+    "created": 1778263571,
+    "free": true,
+    "reasoning": true
+  }
+]

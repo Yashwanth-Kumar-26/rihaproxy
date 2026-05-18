@@ -1,0 +1,56 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.secret
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Databases & Logs
+*.db
+*.sqlite3
+*.log
+*.pid
+
+# Editor & OS
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Scratch & Temp Files
+scratch/*
+scratch_*.py
+
+# Lock files (optional — remove if you want to commit them)
+# uv.lock
+# poetry.lock
+
+*.md
+*.db
+scratch/
